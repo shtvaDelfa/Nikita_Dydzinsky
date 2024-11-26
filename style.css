@@ -1,0 +1,33 @@
+body{
+  height: 100vh;
+background: url(https://cvetovik.com/files/images/rozy.jpg) no-repeat center/cover;
+background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .card {
+    background-color: wheat;
+    max-width: 400px;
+    text-align: center;
+    border-radius: 20px;
+ }
+
+.card-header , .card-footer{
+    background-color: crimson;
+    padding: 20px;
+    border-top-left-radius:20px ;
+}
+
+.card-body {}
+
+ button{
+    background-color: wheat;
+    padding: 10px;
+    border:none;
+    cursor: pointer;
+ }
+ button:hover{
+    background-color: beige;
+ }
